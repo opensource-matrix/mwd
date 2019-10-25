@@ -1,39 +1,13 @@
-MWD (Matrix Web Documentation) is a platform for documentating how code works, across programming languages and platforms.  Interested?  Feel free to check out any of the provided documentation!
+Hello developers, welcome to the centre of development, MWD!  Here you'll find all sorts of documentation, tutorials, showcases in multiple different programming languages, including:
 
-## Syntax Highlighting
-MWD uses syntax highlighting provided by [`MkDocs`](https://www.mkdocs.org).  Here's a few rich examples:
-### NodeJs
-```javascript
-const fs = require("fs");
-var textFile = fs.readFileSync("mytextfile.txt");
-var textContent = toString(textFile);
+- Lua
+- Python
+- PHP
+- Javascript/NodeJs
+- Ruby
+- HTML & CSS
 
-/* Log to the console: */
-console.log(textContent);
-```
+And even more to come, we're working on it every day to bring you the best experience possible!  
 
-```python tab="PYTHON"
-class MyClass:
-    def __init__():
-        print("Hello, world!")
-    def goodbye():
-        print("Goodbye, world!")
-
-
-c = MyClass.new()
-c.goodbye()
-```
-```php tab="PHP"
-<?php
-echo "Hello, world!";
-
-class SayHello {
-    public function __construct($name) {
-        echo "Hello, " . $name;
-    }
-}
-
-new SayHello("John Doe");
-```
-
-Thanks for reading the provided documentation! :)
+!!! info
+    We strive to make our displayed code as cross-platform as possible, so no worries about having to look up how to do something for a different OS.
